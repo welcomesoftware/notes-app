@@ -2,11 +2,15 @@
   "name": "notes-app",
   "version": "1.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WelcomeTheJungle/notes-app.git"
+  },
   "description": "aplicacion de notas, utilizando todos los conceptos en full stack de javascript",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node src/app",
+    "dev": "nodemon src/app"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +25,8 @@
     "morgan": "^1.9.1",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
