@@ -2,8 +2,8 @@
 const controller = {};
 
 // Methods
-controller.index = (req, res) => {
-    res.send('Users running..');
+controller.list = (req, res) => {
+    res.send('Notes running from database...');
 };
 
 
